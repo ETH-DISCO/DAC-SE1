@@ -28,7 +28,7 @@ dac_tools = DACTools()
 tokenizer = DACTokenizer(num_layers=9, codebook_size=1024)
 
 # Load denoiser model
-model_path = "disco-eth/DAC-SE1 "
+model_path = "disco-eth/DAC-SE1"
 model = LlamaForCausalLM.from_pretrained(model_path)
 model = model.to('cuda')
 model.eval()
