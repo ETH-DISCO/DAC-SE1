@@ -1,10 +1,17 @@
-# DAC-SE1: HIGH-FIDELITY SPEECH ENHANCEMENT VIA DISCRETE AUDIO TOKENS
+<div align="center">
 
-[Paper](https://arxiv.org/abs/2510.02187) | [Sample Page](https://lucala.github.io/dac-se1/)
+# DAC-SE1: High-Fidelity Speech Enhancement via Discrete Audio Tokens
 
-We are pleased to annouce that our paper was accepted at ICASSP 2026!🎉
+**Luca A. Lanzendörfer · Frédéric Berdoz · Antonis Asonitis · Roger Wattenhofer**
+
+[![arXiv](https://img.shields.io/badge/arXiv-2510.02187-b31b1b.svg)](https://arxiv.org/abs/2510.02187) 
+[![Demo](https://img.shields.io/badge/Demo-Sample%20Page-blue.svg)](https://lucala.github.io/dac-se1/)
+
+Accepted at ICASSP 2026 🎉
 
 Recent autoregressive transformer-based speech enhancement (SE) methods have shown promising results by leveraging advanced semantic understanding and contextual modeling of speech. However, these approaches often rely on complex multi-stage pipelines and low sampling rate codecs, limiting them to narrow and task-specific speech enhancement. In this work, we introduce DAC-SE1, a simplified language model-based SE framework leveraging discrete high-resolution audio representations; DAC-SE1 preserves fine-grained acoustic details while maintaining semantic coherence. Our experiments show that DAC-SE1 surpasses state-of-the-art autoregressive SE methods on both objective perceptual metrics and in a MUSHRA human evaluation. We release our codebase and model checkpoints to support further research in scalable, unified, and high-quality speech enhancement
+
+</div>
 
 ## Installation
 
